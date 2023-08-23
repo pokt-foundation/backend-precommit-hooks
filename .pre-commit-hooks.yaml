@@ -30,6 +30,12 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go-critic`, requires https://github.com/go-critic/go-critic"
+-   id: go-all-tests
+    name: 'go-all-tests'
+    entry: run-go-all-tests.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `make test`"
 -   id: go-unit-tests
     name: 'go-unit-tests'
     entry: run-go-unit-tests.sh
@@ -48,3 +54,9 @@
     pass_filenames: false
     language: 'script'
     description: "Runs `go mod tidy -v`, requires golang"
+-   id: mermaid
+    name: 'mermaid'
+    entry: run-mermaid.sh
+    files: '\.sql$'
+    language: 'script'
+    description: "Runs `make mermaid`, requires mermerd"
