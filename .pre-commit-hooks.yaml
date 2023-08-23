@@ -30,6 +30,11 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go-critic`, requires https://github.com/go-critic/go-critic"
+-   id: go-all-tests
+    name: 'go-all-tests'
+    entry: run-go-all-tests.sh
+    language: 'script'
+    description: "Runs all tests including E2E using the repo's `make test` target"
 -   id: go-unit-tests
     name: 'go-unit-tests'
     entry: run-go-unit-tests.sh

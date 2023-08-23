@@ -36,5 +36,6 @@ Add this to your `.pre-commit-config.yaml`
   [golangci-lint](https://github.com/golangci/golangci-lint)
 - `go-critic` - run `gocritic check ./...`, requires [go-critic](https://github.com/go-critic/go-critic)
 - `go-unit-tests` - run `CGO_ENABLED=0 go test ./...`
+- `go-all-tests` - run `make test`
 - `go-build` - run `go build`, requires golang
 - `go-mod-tidy` - run `go mod tidy -v`, requires golang
