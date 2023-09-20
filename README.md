@@ -1,5 +1,5 @@
 <div align="center">
-<img src=".github/banner.png" alt="Pocket Network logo" width="600"/>
+<img src=".github/grove_logo.png" alt="Grove logo" width="600"/>
 <h1>Backend pre-commit Hooks</h1>
 <big>A collection of useful Golang pre-commit hooks for our backend repos.</big>
 
