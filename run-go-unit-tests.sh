@@ -5,4 +5,4 @@ fail() {
   exit 1
 }
 
-CGO_ENABLED=0 go test ./... -short || fail
+go test ./... -short || fail
